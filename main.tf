@@ -1,3 +1,9 @@
+// Oncelikle ec2 ya terraform install edelim terminalde bu komutlari yazarak main.tf ile ilgisi yok
+//sudo yum install -y yum-utils
+//sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo 
+//sudo yum -y install terraform
+// terraform --version
+################
 // aws icin terraform sayfada user providerdan aliriz bu kismi. ayni anda birden cok provider ornegin github provider kullanmak isteseydik onu da eklicektik
 terraform {
   required_providers {
